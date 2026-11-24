@@ -1,0 +1,41 @@
+# Default Configuration for Academic Skin Disease Classification Project
+
+seed: 42
+
+data:
+  image_size: 224
+  batch_size: 16
+  num_workers: 0
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  use_balanced_sampler: true
+  data_dir: "data"
+  synthetic_samples: 140
+
+model:
+  backbone: "resnet18"
+  num_classes: 7
+  pretrained: true
+  dropout_rate: 0.3
+  head_type: "linear"
+  freeze_backbone: false
+
+training:
+  epochs: 5
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  loss_type: "weighted_ce"  # 'ce', 'weighted_ce', 'focal'
+  label_smoothing: 0.05
+  focal_gamma: 2.0
+  use_amp: true
+  max_grad_norm: 1.0
+  monitor_metric: "val_macro_f1"
+  monitor_mode: "max"
+
+evaluation:
+  top_k_list: [1, 2, 3]
+
+output:
+  checkpoint_dir: "models"
+  report_dir: "reports"

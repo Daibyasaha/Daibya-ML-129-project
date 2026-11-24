@@ -1,0 +1,24 @@
+lesion_id,image_id,dx,dx_type,age,sex,localization,label,split
+HAM_SYN_000001,ISIC_SYN_0000001,akiec,follow_up,66,female,face,0,val
+HAM_SYN_000001,ISIC_SYN_0000002,akiec,follow_up,66,female,face,0,val
+HAM_SYN_000014,ISIC_SYN_0000018,bcc,follow_up,30,male,upper extremity,1,val
+HAM_SYN_000019,ISIC_SYN_0000027,bkl,follow_up,52,male,lower extremity,2,val
+HAM_SYN_000020,ISIC_SYN_0000028,bkl,follow_up,30,female,lower extremity,2,val
+HAM_SYN_000022,ISIC_SYN_0000030,bkl,follow_up,55,male,abdomen,2,val
+HAM_SYN_000031,ISIC_SYN_0000039,df,follow_up,35,male,chest,3,val
+HAM_SYN_000031,ISIC_SYN_0000040,df,follow_up,35,male,chest,3,val
+HAM_SYN_000038,ISIC_SYN_0000049,mel,confocal,56,male,abdomen,4,val
+HAM_SYN_000041,ISIC_SYN_0000052,mel,histo,70,female,trunk,4,val
+HAM_SYN_000045,ISIC_SYN_0000056,nv,histo,34,male,trunk,5,val
+HAM_SYN_000045,ISIC_SYN_0000057,nv,histo,34,male,trunk,5,val
+HAM_SYN_000050,ISIC_SYN_0000066,nv,consensus,26,male,upper extremity,5,val
+HAM_SYN_000050,ISIC_SYN_0000067,nv,consensus,26,male,upper extremity,5,val
+HAM_SYN_000057,ISIC_SYN_0000080,nv,histo,38,female,face,5,val
+HAM_SYN_000057,ISIC_SYN_0000081,nv,histo,38,female,face,5,val
+HAM_SYN_000060,ISIC_SYN_0000086,nv,histo,63,male,abdomen,5,val
+HAM_SYN_000062,ISIC_SYN_0000088,nv,follow_up,51,male,lower extremity,5,val
+HAM_SYN_000075,ISIC_SYN_0000101,nv,histo,43,female,upper extremity,5,val
+HAM_SYN_000093,ISIC_SYN_0000119,nv,histo,35,female,face,5,val
+HAM_SYN_000096,ISIC_SYN_0000122,nv,histo,76,female,abdomen,5,val
+HAM_SYN_000099,ISIC_SYN_0000125,nv,histo,24,female,trunk,5,val
+HAM_SYN_000112,ISIC_SYN_0000140,vasc,histo,39,female,upper extremity,6,val
